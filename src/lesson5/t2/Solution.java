@@ -3,7 +3,9 @@ package lesson5.t2;
 public class Solution {
     public static void main(String[] args) {
         System.out.println("Ого, метод м1 что-то вернул. Он вернул число " + m1());
-        System.out.println("Числа из методов сложились и получилось " + m1() + " и " + m2());
+        System.out.println("Ого, метод м2 что-то вернул. Он вернул число " + m2());
+
+        System.out.println("Числа из методов сложились и получилось " + (m1() + m2()));
     }
     public static byte m1() {
         byte a = 27;
